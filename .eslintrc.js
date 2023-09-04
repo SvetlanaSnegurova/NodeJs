@@ -1,4 +1,4 @@
-export default {
+module.exports = {
     "env": {
         "browser": true,
         "es2021": true,
@@ -15,14 +15,13 @@ export default {
             ],
             "parserOptions": {
                 "sourceType": "script"
-            } 
+            }
         }
     ],
     "parserOptions": {
         "ecmaVersion": "latest",
         "sourceType": "module"
     },
-    "rules": {  
-        "no-debugger":"off"
+    "rules": {
     }
 }
